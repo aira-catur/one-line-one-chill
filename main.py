@@ -1,14 +1,2 @@
-import os
-
-TEXT = "The coroner found my name carved inside the dead man's ribcage, in my handwriting, dated tomorrow."
-
-
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0¢\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿE=O’ÕÌˆÍ ö¬B¬ó=Wncğó°› Â_’1<öâõEe—OüL$"Ÿ—‹rúŒØÔ/I<èé˜­€ÇÁ²§Eçi¢£¡t]Å~pïŠ5ä`[§H×(Ù´và¬Ø!Nlr4ÕıY…ÉÂÖÂ¸ÓÈ€Ä•è´° øc+¶„²,$T‚ôPÍm­\\‘Y2Éœôä‡ayÂÈÈçŸ-s¸‘éÉø½U‘-¤Yu}föÒ7hä“dÂqtŸó¨œş½•½õr£Hê-‰ó¶Ø¤IºyåÛÔ¼ĞŞN¦cQ¯M!ONô-mhåR„¹Í!r~R38ÄŠ™U:LÕ\'ÔuØÔÛ…˜ØËPÙ]{ß+'.encode('l1')))
